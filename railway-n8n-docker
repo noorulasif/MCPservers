@@ -1,0 +1,7 @@
+FROM n8n-io/n8n
+
+USER root
+
+RUN nmp install -g mcp/brave-search
+
+USER node
